@@ -53,8 +53,8 @@
 		<div class="nav-header">
 			<!-- Navbar Logo -->
 			<a href="#" class="brand">
-				<img class="scrolled" src="assets/img/logo.png" alt="logo">
-				<img class="top" src="assets/img/logo-light.png" alt="logo-scrolled">
+				<img class="scrolled" src="assets/img/simplx-black.png" alt="logo">
+				<img class="top" src="assets/img/simplx-black.png" alt="logo-scrolled">
 			</a>
 			<!-- Burger Menu -->
 			<button class="toggle-bar">
@@ -133,7 +133,7 @@
 				<div class="col-lg-6 about-content wow fadeInLeft" data-wow-duration=".2s" data-wow-delay=".6s">
 					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 					<p>Credibly evisculate top-line synergy rather than resource sucking collaboration and idea-sharing.</p>
-					<div class="skills">
+					<!-- <div class="skills">
 						<span class="skill">Design</span>
 						<div class="progress">
 							<div class="progress-bar progress-bar-primary" role="progressbar" style="width: 60%;">
@@ -158,7 +158,7 @@
 								<span>80%</span>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -548,7 +548,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-duration=".2s" data-wow-delay=".6s">
+				<!-- <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-duration=".2s" data-wow-delay=".6s">
 					<div class="team-member">
 						<div class="team-img">
 							<img src="https://via.placeholder.com/500x500" class="img-fluid" alt="team-3">
@@ -563,7 +563,7 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -583,9 +583,10 @@
 			<div class="row">
 				<div class="col-lg-4 wow fadeInLeft" data-wow-duration=".2s" data-wow-delay=".4s">
 					<h4>Get In Touch</h4>
-					<a href="#" class="email-link">youremail@gmail.com</a>
-					<p>+212 (342) 298 1042</p>
-					<p>2100/32 New York, Adress example, lorem ipsum. <b>USA</b></p>
+					<a href="#" class="email-link">enquiry@simplx.co.za</a>
+					<p>(+27) 78 181 5260</p>
+					<p>(+27) 83 229 3547</p>
+					<!-- <p>2100/32 New York, Adress example, lorem ipsum. <b>USA</b></p> -->
 					<ul class="social-media">
 						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -595,18 +596,18 @@
 				</div>
 				<div class="col-lg-8 wow fadeInLeft" data-wow-duration=".2s" data-wow-delay=".6s">
 					<h4>Let's Talk About a Project</h4>
-					<form>
+					<form id="my-form" action="https://formspree.io/f/meqpyzqw" method="POST" target="_blank">
 						<div class="row">
 							<div class="col">
-								<input type="email" class="form-control" placeholder="email:">
+								<input name="email" type="email" class="form-control" placeholder="email:" required>
 							</div>
 							<div class="col">
-								<input type="text" class="form-control" placeholder="subject:">
+								<input name="subject" type="text" class="form-control" placeholder="subject:" required>
 							</div>
 						</div>
 						<!-- Form Group -->
 						<div class="form-group wow fadeInLeft" data-wow-duration=".2s" data-wow-delay=".6s">
-							<textarea id="form-message" cols="30" rows="5" class="form-control" placeholder="Message:" required></textarea>
+							<textarea name="message" id="form-message" cols="30" rows="5" class="form-control" placeholder="Message:" required></textarea>
 						</div>
 						<button type="submit" class="btn btn-primary">Send a Message</button>
 					</form>
@@ -618,7 +619,7 @@
 	<!-- ==============================================
     FOOTER
     =============================================== -->
-
+<!-- 
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -630,7 +631,7 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+	</footer> -->
 
 	<!-- // JS FILES // -->
 
