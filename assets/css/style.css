@@ -39,7 +39,7 @@
 			BODY:
 ========================================================*/
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	line-height: 1.8;
 	letter-spacing: 0.07em;
@@ -98,8 +98,8 @@ h6 {
 	color: #fff;
 	border: 1px solid #fff;
 	border-radius: 100px;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .btn-transparent:hover,
@@ -121,8 +121,8 @@ h6 {
 	color: #000;
 	border: 1px solid #fff;
 	border-radius: 100px;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .btn-white:hover,
@@ -144,8 +144,8 @@ h6 {
 	color: #fff;
 	border: 1px solid #fff;
 	border-radius: 100px;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .btn-primary:hover,
@@ -163,6 +163,9 @@ h6 {
 /*=======================================================
 			NAVIGATION:
 ========================================================*/
+.core-nav.open-responsive .wrap-core-nav-list{
+    background: #ad67ea !important;
+}
 .core-nav .brand {
 	top: 10px;
 }
@@ -173,8 +176,8 @@ h6 {
 
 .core-nav .menu li a {
 	font-weight: 500;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .core-nav .menu li.active > a {
@@ -192,8 +195,8 @@ h6 {
 
 nav.scrolled .menu li a {
 	font-weight: 500;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 nav.scrolled .menu li.active > a {
@@ -242,14 +245,14 @@ nav.scrolled .menu li a:active {
 }
 
 .slider-area .slide-bg-1 {
-	background-image: url("https://via.placeholder.com/1920x1080");
+	background-image: url("../img/coding-at-desk.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .slider-area .slide-bg-2 {
-	background-image: url("https://via.placeholder.com/1920x1080");
+	background-image: url("../img/people-meeting.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -496,8 +499,8 @@ nav.scrolled .menu li a:active {
 	-ms-flex-align: center;
 	align-items: center;
 	opacity: 0;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 #portfolio .portfolio-item .item-info .heading-3 {
@@ -578,7 +581,7 @@ nav.scrolled .menu li a:active {
 			CALL TO ACTION:
 ========================================================*/
 #call-to-action {
-	background: url("https://via.placeholder.com/1920x1080");
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/coding-setup.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -897,8 +900,8 @@ nav.scrolled .menu li a:active {
 	display: inline-block;
 	background: #ad67ea;
 	border: 1px solid #fff;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 	cursor: pointer;
 	width: 50px;
 	height: 50px;
@@ -981,8 +984,8 @@ nav.scrolled .menu li a:active {
 	color: #ad67ea;
 	display: block;
 	margin-bottom: 15px;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 #contact .email-link:hover,
@@ -999,8 +1002,8 @@ nav.scrolled .menu li a:active {
 
 #contact .social-media li {
 	display: inline-block;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 	margin: 0 10px;
 }
 
@@ -1023,7 +1026,7 @@ nav.scrolled .menu li a:active {
 }
 
 #contact .row .col .form-control {
-	border-radius: 100px;
+	/* border-radius: 100px; */
 	margin-bottom: 20px;
 	border: 1.5px solid #ad67ea;
 }
@@ -1048,8 +1051,8 @@ footer p {
 
 footer a {
 	color: #ad67ea;
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 footer a:hover,
@@ -1127,8 +1130,8 @@ footer a:active {
 	width: 50px;
 	height: 50px;
 	background: #fff;
-	-webkit-animation: animate .5s linear infinite;
-	animation: animate .5s linear infinite;
+	-webkit-animation: animate 0.5s linear infinite;
+	animation: animate 0.5s linear infinite;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1198,8 +1201,8 @@ footer a:active {
 	top: 59px;
 	left: 0;
 	border-radius: 50%;
-	-webkit-animation: shadow .5s linear infinite;
-	animation: shadow .5s linear infinite;
+	-webkit-animation: shadow 0.5s linear infinite;
+	animation: shadow 0.5s linear infinite;
 }
 
 @-webkit-keyframes shadow {
