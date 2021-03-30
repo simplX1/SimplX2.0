@@ -85,7 +85,7 @@ h6 {
 
 .lnr {
 	font-size: 3rem;
-	color: #ad67ea;
+	color: #d2601A;
 }
 
 /*=======================================================
@@ -105,7 +105,7 @@ h6 {
 .btn-transparent:hover,
 .btn-transparent:focus,
 .btn-transparent:active {
-	background: #ad67ea;
+	background: #d2601A;
 	color: #fff;
 	border: 1px solid #fff;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -128,7 +128,7 @@ h6 {
 .btn-white:hover,
 .btn-white:focus,
 .btn-white:active {
-	background: #ad67ea;
+	background: #d2601A;
 	color: #fff;
 	border: 1px solid #fff;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -138,7 +138,7 @@ h6 {
 }
 
 .btn-primary {
-	background: #ad67ea;
+	background: #d2601A;
 	font-size: 12px;
 	padding: 15px 25px;
 	color: #fff;
@@ -164,7 +164,7 @@ h6 {
 			NAVIGATION:
 ========================================================*/
 .core-nav.open-responsive .wrap-core-nav-list{
-    background: #ad67ea !important;
+    background: #d2601A !important;
 }
 .core-nav .brand {
 	top: 10px;
@@ -188,7 +188,7 @@ h6 {
 .core-nav .menu li a:hover,
 .core-nav .menu li a:focus,
 .core-nav .menu li a:active {
-	color: #8aecec;
+	color: #000000;
 }
 
 nav.scrolled .menu li a {
@@ -205,7 +205,7 @@ nav.scrolled .menu li.active > a,
 nav.scrolled .menu li a:hover,
 nav.scrolled .menu li a:focus,
 nav.scrolled .menu li a:active {
-	color: #8aecec;
+	color: #d2601A;
 }
 
 /*=======================================================
@@ -237,7 +237,7 @@ nav.scrolled .menu li a:active {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(173, 103, 234, 0.66);
+	background: rgba(210, 96, 26, 0.4);
 }
 
 .slider-area .slide-bg-1 {
@@ -285,7 +285,7 @@ nav.scrolled .menu li a:active {
 
 .slider-area .owl-dots div.owl-dot {
 	background-color: transparent;
-	border: 2px solid #ad67ea;
+	border: 2px solid #d2601A;
 	border-radius: 100px;
 	bottom: -25px;
 	display: inline-block;
@@ -346,8 +346,8 @@ nav.scrolled .menu li a:active {
 
 #about .about-img img {
 	margin: 0 auto;
-	-webkit-box-shadow: -20px -19px 0px -4px #ad67ea;
-	box-shadow: -20px -19px 0px -4px #ad67ea;
+	-webkit-box-shadow: -20px -19px 0px -4px #d2601A;
+	box-shadow: -20px -19px 0px -4px #d2601A;
 }
 
 #about .about-content {
@@ -372,7 +372,7 @@ nav.scrolled .menu li a:active {
 
 #about .about-content .progress .progress-bar {
 	position: relative;
-	background: #ad67ea;
+	background: #d2601A;
 	border-radius: 100px;
 }
 
@@ -474,7 +474,7 @@ nav.scrolled .menu li a:active {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(173, 103, 234, 0.7);
+	background: #d2601A;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -680,7 +680,8 @@ nav.scrolled .menu li a:active {
 }
 
 #pricing .price-title {
-	margin-bottom: 80px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 #pricing .price-title:after {
@@ -710,7 +711,7 @@ nav.scrolled .menu li a:active {
 }
 
 #pricing .price-table .type .featured {
-	color: #ad67ea;
+	color: #d2601A;
 }
 
 #pricing .price-table .value {
@@ -771,7 +772,7 @@ nav.scrolled .menu li a:active {
 }
 
 #testimonials .owl-testimonials .item {
-	background: #ad67ea;
+	background: #d2601A;
 	color: #fff;
 	-webkit-box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
@@ -814,7 +815,7 @@ nav.scrolled .menu li a:active {
 
 #testimonials .owl-testimonials .owl-dots div.owl-dot {
 	background-color: transparent;
-	border: 2px solid #ad67ea;
+	border: 2px solid #d2601A;
 	border-radius: 100px;
 	bottom: -25px;
 	display: inline-block;
@@ -861,8 +862,8 @@ nav.scrolled .menu li a:active {
 }
 
 #team .team-member .team-img img {
-	-webkit-box-shadow: -20px -19px 0px -4px #ad67ea;
-	box-shadow: -20px -19px 0px -4px #ad67ea;
+	-webkit-box-shadow: -20px -19px 0px -4px #d2601A;
+	box-shadow: -20px -19px 0px -4px #d2601A;
 }
 
 #team .team-member h4 {
@@ -880,7 +881,7 @@ nav.scrolled .menu li a:active {
 
 #team .social-media li {
 	display: inline-block;
-	background: #ad67ea;
+	background: #d2601A;
 	border: 1px solid #fff;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -961,7 +962,7 @@ nav.scrolled .menu li a:active {
 }
 
 #contact .email-link {
-	color: #ad67ea;
+	color: #d2601A;
 	display: block;
 	margin-bottom: 15px;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -989,12 +990,12 @@ nav.scrolled .menu li a:active {
 #contact .social-media li a {
 	font-size: 18px;
 	line-height: 2.8;
-	color: #ad67ea;
+	color: #d2601A;
 }
 
 #contact textarea {
 	border-radius: 5px;
-	border: 1.5px solid #ad67ea;
+	border: 1.5px solid #d2601A;
 }
 
 #contact textarea:focus {
@@ -1007,7 +1008,7 @@ nav.scrolled .menu li a:active {
 #contact .row .col .form-control {
 	/* border-radius: 100px; */
 	margin-bottom: 20px;
-	border: 1.5px solid #ad67ea;
+	border: 1.5px solid #d2601A;
 }
 
 #contact .row .col .form-control:focus {
@@ -1029,7 +1030,7 @@ footer p {
 }
 
 footer a {
-	color: #ad67ea;
+	color: #d2601A;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
