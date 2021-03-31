@@ -347,7 +347,8 @@ nav.scrolled .menu li a:active {
 	width: 230px;
 	height: 4px;
 	display: block;
-	
+	-webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 	border-radius: 100px;
 }
 
@@ -455,7 +456,8 @@ nav.scrolled .menu li a:active {
 	width: 300px;
 	height: 4px;
 	display: block;
-	
+	-webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 	border-radius: 100px;
 }
 
@@ -630,7 +632,8 @@ nav.scrolled .menu li a:active {
 	width: 300px;
 	height: 4px;
 	display: block;
-
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 	border-radius: 100px;
 }
 
@@ -704,7 +707,8 @@ nav.scrolled .menu li a:active {
 	width: 300px;
 	height: 4px;
 	display: block;
-	
+	-webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 	border-radius: 100px;
 }
 
@@ -778,7 +782,8 @@ nav.scrolled .menu li a:active {
 	width: 300px;
 	height: 4px;
 	display: block;
-	
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);	
 	border-radius: 100px;
 }
 
@@ -864,7 +869,8 @@ nav.scrolled .menu li a:active {
 	width: 250px;
 	height: 4px;
 	display: block;
-	
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);	
 	border-radius: 100px;
 }
 
@@ -957,15 +963,16 @@ nav.scrolled .menu li a:active {
 
 #contact h2:after {
 	top: -23px;
-	content: "";
-	position: relative;
-	left: 50%;
-	bottom: 0;
-	width: 250px;
-	height: 4px;
-	display: block;
-	
-	border-radius: 100px;
+        content: "";
+        position: relative;
+        left: 50%;
+        bottom: 0;
+        width: 230px;
+        height: 4px;
+        display: block;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        border-radius: 100px;
 }
 
 #contact h4 {
