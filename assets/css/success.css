@@ -42,6 +42,7 @@ p {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    outline: none !important;
 }
 .btn-back:hover{
     background: #8aecec;
