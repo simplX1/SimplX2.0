@@ -117,8 +117,9 @@ h6 {
 .btn-transparent:focus,
 .btn-transparent:active {
 	background: #d2601A;
+	border: 0;
 	color: #fff;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 	-webkit-transform: translateY(-3px);
@@ -140,8 +141,9 @@ h6 {
 .btn-white:focus,
 .btn-white:active {
 	background: #d2601A;
+	border: 0;
 	color: #fff;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 	-webkit-transform: translateY(-3px);
@@ -162,7 +164,7 @@ h6 {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background: #8aecec;
+	background: #000000;
 	color: #fff;
 	border: 1px solid #fff;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -248,7 +250,7 @@ nav.scrolled .menu li a:active {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(210, 96, 26, 0.4);
+	background: rgba(0, 0, 0, 0.4);
 }
 
 .slider-area .slide-bg-1 {
@@ -289,7 +291,7 @@ nav.scrolled .menu li a:active {
 }
 
 .slider-area .owl-dots {
-	bottom: 2.5%;
+	/* bottom: 2.5%; */
 	right: 50%;
 	position: relative;
 }
@@ -310,7 +312,7 @@ nav.scrolled .menu li a:active {
 }
 
 .slider-area .owl-dots div.owl-dot.active {
-	background-color: #8aecec;
+	background-color: #000000;
 }
 
 .slider-area:after {
@@ -363,7 +365,7 @@ nav.scrolled .menu li a:active {
 }
 
 #about .about-content {
-	padding: 90px 20px 0 20px;
+	padding: 0px 20px 0 20px;
 	text-align: left;
 }
 
@@ -397,6 +399,7 @@ nav.scrolled .menu li a:active {
 	font-weight: 700;
 	color: #000;
 }
+
 
 /*=======================================================
 			FEATURES:
@@ -550,7 +553,7 @@ nav.scrolled .menu li a:active {
 	content: "";
 	width: 50px;
 	height: 2px;
-	background-color: #8aecec;
+	background-color: #000000;
 	display: block;
 	position: absolute;
 	border-radius: 100px;
@@ -845,7 +848,7 @@ nav.scrolled .menu li a:active {
 }
 
 #testimonials .owl-testimonials .owl-dots div.owl-dot.active {
-	background-color: #8aecec;
+	background-color: #000000;
 }
 
 /*=======================================================
@@ -918,7 +921,7 @@ nav.scrolled .menu li a:active {
 #team .social-media li:hover,
 #team .social-media li:focus,
 #team .social-media li:active {
-	background: #8aecec;
+	background: #000000;
 	border: 1px solid #fff;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -990,7 +993,7 @@ nav.scrolled .menu li a:active {
 #contact .email-link:hover,
 #contact .email-link:focus,
 #contact .email-link:active {
-	color: #8aecec;
+	color: #000000;
 }
 
 #contact .social-media {
@@ -1020,7 +1023,7 @@ nav.scrolled .menu li a:active {
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border: 1.5px solid #8aecec;
+	border: 1.5px solid #000000;
 }
 
 #contact .row .col .form-control {
@@ -1033,7 +1036,7 @@ nav.scrolled .menu li a:active {
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border: 1.5px solid #8aecec;
+	border: 1.5px solid #000000;
 }
 
 /*=======================================================
