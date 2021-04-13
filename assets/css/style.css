@@ -1131,6 +1131,12 @@ footer a:active {
 .preloader-holder ,svg path, svg rect{
 	fill: #FF6700
 }
+#loader {
+	-webkit-animation: loader 5s linear infinite;
+	animation: loader 5s linear infinite;
+	position: absolute;
+	
+}
 /*=======================================================
 			PRELOADER: 
 ========================================================*/
