@@ -397,7 +397,7 @@ nav.scrolled .menu li a:active {
 	right: 0;
 	font-size: 12px;
 	font-weight: 700;
-	color: #000;
+	color: #000000;
 }
 
 
@@ -1082,11 +1082,61 @@ footer a:active {
 		font-size: 3rem;
 	}
 }
-
 /*=======================================================
 			PRELOADER: 
 ========================================================*/
+
 .preloader-holder {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: #ffffff; 
+	/* background-position: center; */
+	/* background-size: cover; */
+	/* background-repeat: no-repeat; */
+	z-index: 100000;
+}
+.preloader-holder .body{
+		padding: 1em;
+		background: #2B3134;
+		color: #777;
+		vertical-align: center;
+		text-align: center;
+		font-family: "Gill sans", sans-serif;
+		width: 100%;
+		margin: 0 auto;
+}
+.preloader-holder .h1{
+  margin: 1em 0;
+  border-bottom: 1px dashed;
+  padding-bottom: 1em;
+  font-weight: lighter;
+}
+.preloader-holder .p{
+	font-style: italic;
+}
+.preloader-holder .loader{
+	top: 50%;
+	position: relative;
+	margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  /* display: inline-block; */
+  vertical-align: center;
+}
+.preloader-holder ,svg path, svg rect{
+	fill: #FF6700
+}
+/*=======================================================
+			PRELOADER: 
+========================================================*/
+
+
+/* /* .preloader-holder {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -1218,5 +1268,5 @@ footer a:active {
 		transform: scale(1.2, 1);
 	}
 }
-
-/*# sourceMappingURL=style.css.map */
+ */
+/* # sourceMappingURL=style.css.map */ 
