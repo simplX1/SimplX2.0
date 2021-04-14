@@ -1107,7 +1107,13 @@ footer a:active {
 		width: 100%;
 		margin: 0 auto;
 }
-.preloader-holder .h1{
+.logo-loader{
+	top: 40%;
+	position: relative;
+	text-align: center;
+}
+.logo-loader .h1{
+  text-align: center;
   margin: 1em 0;
   border-bottom: 1px dashed;
   padding-bottom: 1em;
@@ -1116,12 +1122,18 @@ footer a:active {
 .preloader-holder .p{
 	font-style: italic;
 }
+.preloader-holder .h1{
+	color: black;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 3.5rem;
+}
 .preloader-holder .loader{
-	top: 50%;
+	top: 40%;
 	position: relative;
 	margin: 0 0 2em;
   height: 100px;
-  width: 20%;
+  width: 30%;
   text-align: center;
   padding: 1em;
   margin: 0 auto 1em;
@@ -1132,8 +1144,8 @@ footer a:active {
 	fill: #FF6700
 }
 #loader {
-	-webkit-animation: loader 5s linear infinite;
-	animation: loader 5s linear infinite;
+	-webkit-animation: loader 30s linear infinite;
+	animation: loader 30s linear infinite;
 	position: absolute;
 	
 }
