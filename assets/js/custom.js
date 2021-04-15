@@ -11,7 +11,7 @@ $(document).ready(function () {
 		container: true, // true or false
 		mode: 'fixed',
 		onInit: function () {
-			console.log('Init coreNav');
+			console.log('Init coreNavss');
 		}
 	});
 
