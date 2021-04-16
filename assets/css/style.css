@@ -177,7 +177,7 @@ h6 {
 			NAVIGATION:
 ========================================================*/
 .core-nav.open-responsive .wrap-core-nav-list{
-    background: #d2601A !important;
+    background: #FFF !important;
 }
 .core-nav .brand {
 	top: 10px;
@@ -201,7 +201,7 @@ h6 {
 .core-nav .menu li a:hover,
 .core-nav .menu li a:focus,
 .core-nav .menu li a:active {
-	color: #000000;
+	color: #d2601A;
 }
 
 nav.scrolled .menu li a {

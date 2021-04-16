@@ -41,13 +41,13 @@ nav .menu li.dropdown > a::before{
 
 nav .menu li.dropdown.open > a{
     color: #e74c3c;
+    
 }
 
 .sample-text{
     padding: 30px;
 }
 /* =========================== */
-
 @media (max-width: 992px) {
     nav .nav-header {
         padding: 0;

@@ -1,5 +1,6 @@
 
 $('nav').coreNavigation({
     layout: "sidebar",
-    responsideSlide: true 
+    responsideSlide: true
+     
 });
