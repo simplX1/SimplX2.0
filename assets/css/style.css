@@ -1014,6 +1014,11 @@ nav.scrolled .menu li a:active {
 	color: #d2601A;
 }
 
+#contact .social-media li a:hover{ 
+        color: #000000;
+       
+}
+
 #contact textarea {
 	border-radius: 5px;
 	border: 1.5px solid #d2601A;
